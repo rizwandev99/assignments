@@ -18,6 +18,7 @@ const UserSchema = new mongoose.Schema({
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Course'
     }]
+    //it is the course
 });
 
 const CourseSchema = new mongoose.Schema({
